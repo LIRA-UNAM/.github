@@ -7,45 +7,30 @@ config:
   flowchart:
     htmlLabels: false
 ---
-flowchart TD
-    A["LIRA UNAM
-    **(Organization)**"]
-    A-->B("Humanoids
-    **Teams**")
-    A-->C("Drones
-    **Teams**")
-    A-->D("Rovers
-    **Teams**")
-    A-->E("Unitree
-    **Teams**")
+flowchart TD 
+    A["LIRA UNAM (Organization)"] 
+    A-->B("PUMANOIDS Team") 
+    A-->C("SquadDRON Team") 
+    A-->D("Rovers Teams") 
+    A-->E("Unitree Teams") 
     B-->J[(Humanoids Repository)]-->F("
-    - Miguel Lopez
-    - Miguel Garcia
-    - Ruth
-    - Miriam
-    - German
-    - Roman
-    - Sebastian
-    - Julio Valdez
-    - Monica Cortina
-    - Samuel
-    - Itzel")
-    C-->K[(Drones Repo)]-->G("
-    CROFIS
-    - Enrique Medrano
-    - Humberto Ortiz
-    - Luis Orihuela
-    - Hugo Hilario
-    ")
-    D-->L[(ROVER Repository)]-->H("
-    CROFIS
-    - Daniel G Rioja
-    - Javier Diaz
-    - Monica Cortina
-    - Julio Valdez
-    ")
-    E-->M[(UNITREE Repository)]-->I("
-    CROFIS
-    - Joel
-    - Miguel Lopez
-    ")
+        Miguel Garcia 
+        Ruth Moreno
+        Miriam Velazquez
+        German Alday
+        Roman Frias
+        Sebastian Garcia
+        Julio Valdez  
+        Samuel Estrada 
+        Itzel Gonzalez") 
+    C-->K[(Drones Repo)]-->G(" 
+        Enrique Medrano
+        Humberto Ortiz
+        Luis Orihuela
+        Hugo Hilario ") 
+    D-->L[(ROVER Repository)]-->H("  
+        Daniel G Rioja 
+        Javier Diaz") 
+    E-->M[(UNITREE Repository)]-->I(" 
+        Joel 
+        Miguel Lopez ")
